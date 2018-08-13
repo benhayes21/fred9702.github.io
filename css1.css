@@ -1,0 +1,123 @@
+* 
+{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    
+    
+    
+}
+
+html {
+    background-color: rgb(00,88,81);
+}
+
+html, body {
+    height: 100%;
+    width:100%;
+    
+}
+
+.bgimg1, .bgimg2, .bgimg3, .bgimg4 {
+  
+  /* This is the actual parallax bit*/
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+/*These are the images used in the paralax effect. Note they are included in the HTML in the css file using class selectors*/
+
+/*
+
+class template for bgimg
+
+
+.bgimgX {
+    background-image: url();
+    height: xxpx ;
+} */
+
+.bgimg1 {
+  background-image: url("https://image.ibb.co/gnJdbK/pexel1.jpg");
+  height: 100%;
+    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img {
+    max-height: 100%; 
+    max-width: 100%;
+    opacity: 0.8;
+    padding: 0 25%;
+    
+}
+
+.bgimg2 {
+  background-image: url("https://image.ibb.co/cv2RVe/pexel2.jpg");
+  height: 100%;
+  
+}
+
+.bgimg3 {
+  background-image: url("https://image.ibb.co/duvrwK/pexel3.jpg");
+  height: 100%;
+}
+
+.bgimg4 {
+    background-image: url("https://image.ibb.co/jRy0qe/pexel4.jpg");
+    height: 100% ;
+    /* position: relative; */
+    
+    /*Here I used flexbox coz it just made things so much easier, only problem is its compatibility with IE...*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.text p {
+    
+    font-size: 2vw;
+    color: rgb(00,162,156);
+    text-align: center;
+    margin: 0;
+    background-color: rgb(00,88,81);
+    padding: 5%;
+    
+     
+
+}
+
+.caption {
+    /*
+    background-color: white;
+    text-align: center;
+    
+    opacity: 0.5;
+    */
+    font-size: 5em;
+}
+
+header {
+    color: white;
+    font-size: 5vw;
+}
+
+#d-menu {
+    font-size: 50%;
+    background: rgb(0,0,0,0);
+}
+
+#navi {
+    font-size: 5vw;
+    
+}
+#id {
+    min-height: 100%;
+}
+
