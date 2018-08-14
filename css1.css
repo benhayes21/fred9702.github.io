@@ -88,7 +88,28 @@ img {
 
  @media only screen and (max-width: 400px) {
      
-       
+     .bgimg1, .bgimg2, .bgimg3, .bgimg4 {
+         
+         /* This is what makes the background image rescale based
+     on the container's size */
+         background-size: 100% 100%;
+         
+         /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+         
+         /* Background image doesn't tile */
+  background-repeat: no-repeat;
+         
+         /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+         
+         /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: rgb(00,88,81);
+         
+         
+     }    
             
      
 
@@ -96,39 +117,19 @@ img {
 
      
             .bgimg1 { 
-                        background-image: url(https://image.ibb.co/fTOaLp/alberto_restifo_4508_unsplash.jpg); 
-                        background-size: cover;
-                        background-position: center center;
-                        background-repeat: no-repeat;
-                        background-attachment: fixed;
-                        background-color: rgb(00,88,81);
+                background-image: url(https://image.ibb.co/fTOaLp/alberto_restifo_4508_unsplash.jpg); 
             }
      
             .bgimg2 { 
                 background-image: url(https://image.ibb.co/d6P4D9/pine_watt_462535_unsplash.jpg); 
-                        background-size: cover;
-                        background-position: center center;
-                        background-repeat: no-repeat;
-                        background-attachment: fixed;
-                        background-color: rgb(00,88,81);
             }
             
             .bgimg3 { 
                 background-image: url(https://image.ibb.co/jG5cY9/ilnur_kalimullin_333787_unsplash.jpg); 
-                        background-size: cover;
-                        background-position: center center;
-                        background-repeat: no-repeat;
-                        background-attachment: fixed;
-                        background-color: rgb(00,88,81);
             }
      
             .bgimg4 { 
                 background-image: url(https://image.ibb.co/fcgjD9/aaron_gilmore_507659_unsplash.jpg); 
-                        background-size: cover;
-                        background-position: center center;
-                        background-repeat: no-repeat;
-                        background-attachment: fixed;
-                        background-color: rgb(00,88,81);
             }
      
         }
