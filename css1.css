@@ -86,25 +86,31 @@ img {
 }
 
 
- @media only screen and (max-width: 320px) {
+ @media only screen and (max-width: 400px) {
      
-     
-               .bgimg1, .bgimg2, .bgimg3, .bgimg4 {
-  
-  /* This is the actual parallax bit*/
-  
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    /* Responsive background images bootstrap 3
-*/
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    height: 100%;
-}
+     .bgimg1, .bgimg2, .bgimg3, .bgimg4 {
+         
+         /* This is what makes the background image rescale based
+     on the container's size */
+         background-size: cover;
+         
+         /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+         
+         /* Background image doesn't tile */
+  background-repeat: no-repeat;
+         
+         /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+         
+         /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: rgb(00,88,81);
+         
+         
+     }    
+            
      
             .bgimg1 { 
                 background-image: url(https://image.ibb.co/ethcgU/pexel1_opt.jpg); 
@@ -121,6 +127,7 @@ img {
             .bgimg4 { 
                 background-image: url(https://image.ibb.co/ethcgU/pexel4_opt.jpg); 
             }
+     
         }
 
 
