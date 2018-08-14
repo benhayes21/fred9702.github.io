@@ -86,6 +86,50 @@ img {
 }
 
 
+ @media only screen and (max-width: 320px) {
+     
+     
+               .bgimg1, .bgimg2, .bgimg3, .bgimg4 {
+  
+  /* This is the actual parallax bit*/
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Responsive background images bootstrap 3
+*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+}
+     
+            .bgimg1 { 
+                background-image: url(https://image.ibb.co/ethcgU/pexel1_opt.jpg); 
+            }
+     
+            .bgimg2 { 
+                background-image: url(https://image.ibb.co/dyuZT9/pexel2_opt.jpg); 
+            }
+            
+            .bgimg3 { 
+                background-image: url(https://image.ibb.co/ethcgU/pexel3_opt.jpg); 
+            }
+     
+            .bgimg4 { 
+                background-image: url(https://image.ibb.co/ethcgU/pexel4_opt.jpg); 
+            }
+        }
+
+
+
+
+
+
+
+
 .text p {
     
     font-size: 2vw;
