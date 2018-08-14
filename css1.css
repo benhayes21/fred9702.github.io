@@ -92,7 +92,7 @@ img {
          
          /* This is what makes the background image rescale based
      on the container's size */
-         background-size: cover;
+         background-size: contain;
          
          /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
