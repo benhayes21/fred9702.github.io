@@ -25,7 +25,12 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  
+    
+    /* Responsive background images bootstrap 3
+*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 /*These are the images used in the paralax effect. Note they are included in the HTML in the css file using class selectors*/
