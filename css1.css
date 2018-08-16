@@ -92,7 +92,7 @@ img {
          
          /* This is what makes the background image rescale based
      on the container's size */
-         background-size: 100% 100%;
+         background-size: cover;
          
          /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -117,19 +117,19 @@ img {
 
      
             .bgimg1 { 
-                background-image: url(https://image.ibb.co/e7OwVp/amazing_animal_beautiful_beautifull.jpg); 
+                background-image: url(https://image.ibb.co/c7d8bU/pexels_photo_681467.jpg); 
             }
      
             .bgimg2 { 
-                background-image: url(https://image.ibb.co/d6P4D9/pine_watt_462535_unsplash.jpg); 
+                background-image: url(https://image.ibb.co/gB1dbU/pexels_photo_373912_1.jpg); 
             }
             
             .bgimg3 { 
-                background-image: url(https://image.ibb.co/jG5cY9/ilnur_kalimullin_333787_unsplash.jpg); 
+                background-image: url(https://image.ibb.co/mHHyAp/pexels_photo_346529.jpg); 
             }
      
             .bgimg4 { 
-                background-image: url(https://image.ibb.co/fcgjD9/aaron_gilmore_507659_unsplash.jpg); 
+                background-image: url(https://image.ibb.co/mW3ui9/pexels_photo_940309.jpg); 
             }
      
         }
