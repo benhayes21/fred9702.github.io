@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(00,88,81);
+    font-family: 'Raleway', sans-serif;
+}
+
+.photo {
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.oasis {
+    
+    max-height: 40%; 
+    max-width: 100%;
+    opacity: 0.8;
+    padding: 0 25%;
+}
+
+.one {
+    background-image: url(https://image.ibb.co/b0eMt9/alberto_restifo_4508_unsplash.jpg);
+    
+    /*God bless flex-box */
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.two {
+    background-image: url("https://image.ibb.co/cv2RVe/pexel2.jpg");
+
+}
+.three {
+    background-image: url("https://image.ibb.co/duvrwK/pexel3.jpg");
+
+}
+.four {
+    background-image: url("https://image.ibb.co/jRy0qe/pexel4.jpg");
+}
+
+
+/* Mobile CSS */
+
+.mobile body {
+    overflow: hidden;
+}
+
+.mobile #wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.mobile #scroller {
+    height: 3000px;
+}
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    
+.one {
+    background-image: url("https://image.ibb.co/nwQbse/alberto_restifo_4508_mob.jpg");
+    
+    /*God bless flex-box */
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.two {
+    background-image: url("https://image.ibb.co/fYowse/pexel2_mob.jpg");
+
+}
+.three {
+    background-image: url("https://image.ibb.co/iGo4Ce/pexel3.jpg");
+
+}
+.four {
+    background-image: url("https://image.ibb.co/fcgjD9/aaron_gilmore_507659_unsplash.jpg");
+}
+    
+    
+} 
