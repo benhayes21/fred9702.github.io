@@ -1,34 +1,12 @@
 * {
     font-family: 'Raleway', sans-serif;
-}
-
-
-
-html {
-    background: rgb(00,88,81);
-    height: 100%;
-    width: 100%;
-    
+    color: white;
 }
 
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-}
-
-p, h1 {
-    font-family: 'Raleway', sans-serif;
-    color: white;
-}
-
-p {
-    justify-content: center;
-    text-align: center;
-    
-    font-size: 2.5vw;
-    color: white; 
-    padding: 10%;
-    
+    background: rgb(00,88,81);
 }
 
 img {
@@ -39,45 +17,14 @@ img {
 }
 
 
-.two p {
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-    
-}
-
-.three p {
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-}
-
-.four p {
-    
-    /*
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-    display: inline-block;*/
-    
-    font-size: 10vw; 
-    
-}
-
 .photo {
     background-attachment: fixed;
     background-position: 50% 0;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
 }
 
-.oasis {
-    
-    max-height: 40%; 
-    max-width: 100%;
-    opacity: 0.8;
-    padding: 0 25%;
-}
 
 .one {
     background-image: url(https://image.ibb.co/b0eMt9/alberto_restifo_4508_unsplash.jpg);
@@ -101,9 +48,6 @@ img {
 }
 .four {
     background-image: url("https://image.ibb.co/jRy0qe/pexel4.jpg");
-    
-    position: relative;
-    
     /* Flex-box */
     
     display: flex;
@@ -111,31 +55,65 @@ img {
     justify-content: center; 
 }
 
-
-
-header {
+.two p, .three p {
+    justify-content: center;
+    text-align: center;
     
-    font-size: 2vw;
-    color: white;
-    font-family: 'Raleway', sans-serif;
+    font-size: 2.5vw;
+    color: white; 
+    padding: 10%;
     
-    
-    
-    
-    vertical-align: 25%;
-    
-    
-    
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
     
 }
+
+.four p {
+    font-size: 10vw; 
+    
+}
+
+
+.contain {
+    text-align: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    text-decoration: none;
+    z-index: 1;
+    width: auto;
+    
+}
+
+.dropdown-content a {
+    display: block;
+    font-size: 4vw;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    width: 100%;
+}
+
+.dropdown-content a:hover {background-color: rgba(00,88,81, 0.8);}
+
 
 #d-menu {
     background: rgba(0,0,0,0);
     color: white;
 }
 
-#navi {
-    font-size: 2.9em
+
+#abt:hover !important {
+    display: block;
 }
 
 
@@ -175,7 +153,20 @@ header {
     background-attachment: fixed;
     background-position: 50% 0;
     background-repeat: no-repeat;
-    background-size: 100% 100%
+    background-size: 100% 100%;
+        
+        /*
+        
+        background-size:100%;
+        width:100%;
+        
+        */
+        
+        /*
+        
+        background-attachment: scroll;
+        
+        */
 }
     
 .one {

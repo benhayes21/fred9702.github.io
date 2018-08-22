@@ -1,7 +1,6 @@
 $.stellar();
 
 
-
 (function(){
     
     //Checking user agent device
