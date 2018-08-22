@@ -1,11 +1,19 @@
 * {
-    margin: 0;
-    padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
+
+
 
 html {
     background: rgb(00,88,81);
+    height: 100%;
+    width: 100%;
     
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 p, h1 {
@@ -29,6 +37,7 @@ img {
     opacity: 0.6;
     padding: 0 25%;
 }
+
 
 .two p {
     position: absolute;
@@ -93,6 +102,7 @@ img {
 .four {
     background-image: url("https://image.ibb.co/jRy0qe/pexel4.jpg");
     
+    position: relative;
     
     /* Flex-box */
     
@@ -101,11 +111,31 @@ img {
     justify-content: center; 
 }
 
+
+
 header {
-    text-align: center;
-    font-size: 5vw;
+    
+    font-size: 2vw;
     color: white;
-    bottom: 20%;
+    font-family: 'Raleway', sans-serif;
+    
+    
+    
+    
+    vertical-align: 25%;
+    
+    
+    
+    
+}
+
+#d-menu {
+    background: rgba(0,0,0,0);
+    color: white;
+}
+
+#navi {
+    font-size: 2.9em
 }
 
 
@@ -135,13 +165,18 @@ header {
 
 
 
+
+
 /* Extra small devices (phones, 600px and down) */
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
     
-    .one, .two, .three, .four {
-        background-size: contain;
-    }
+    .photo {
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
     
 .one {
     background-image: url("https://image.ibb.co/nwQbse/alberto_restifo_4508_mob.jpg");
@@ -175,3 +210,8 @@ header {
 
 }
     
+
+
+a:hover {
+    text-decoration: none;
+}
