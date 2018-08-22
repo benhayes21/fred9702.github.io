@@ -1,6 +1,10 @@
 $.stellar();
 
+
+
 (function(){
+    
+    //Checking user agent device
     var ua = navigator.userAgent,
         isMobileWebKit = /WebKit/.test(ua) && /Mobile/.test(ua);
     
